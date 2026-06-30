@@ -1,6 +1,6 @@
-# CineVerse 🎬
+# CineOrbit 🎬
 
-CineVerse is a premium, feature-rich Movie & TV show explorer built with React, TypeScript, and Vite. It connects directly with the TMDB API to deliver detailed insights into trending films, TV shows, cast members, season guides, and collections.
+CineOrbit is a premium, feature-rich Movie & TV show explorer built with React, TypeScript, and Vite. It connects directly with the TMDB API to deliver detailed insights into trending films, TV shows, cast members, season guides, and collections.
 
 The user interface features a sleek dark mode design, rich visual gradients, subtle micro-animations (powered by Framer Motion), caching, and an infinite-scrolling media catalog.
 
@@ -32,7 +32,7 @@ npm install
 ```
 
 ### 2. Configuration & API Credentials
-CineVerse uses TMDB's version 3 API.
+CineOrbit uses TMDB's version 3 API.
 
 The project is configured to use environment variables first, but includes a built-in fallback credential so it works out of the box. To configure your own keys:
 

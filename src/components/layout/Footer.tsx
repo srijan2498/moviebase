@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
               <Clapperboard size={18} />
-              <span>CineVerse</span>
+              <span>CineOrbit</span>
             </Link>
             <p className="footer-tagline">
               Powered by <a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer" className="footer-tmdb-link">TMDB</a>

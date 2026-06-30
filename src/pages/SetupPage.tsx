@@ -62,7 +62,7 @@ export default function SetupPage() {
           >
             <Clapperboard size={36} />
           </motion.div>
-          <h1 className="setup-title">CineVerse</h1>
+          <h1 className="setup-title">CineOrbit</h1>
         </div>
 
         <p className="setup-subtitle">

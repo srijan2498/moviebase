@@ -11,19 +11,19 @@ let apiKey: string | null = null;
 
 export function setApiKey(key: string) {
   apiKey = key;
-  localStorage.setItem('cineverse_api_key', key);
+  localStorage.setItem('CineOrbit_api_key', key);
 }
 
 export function getApiKey(): string | null {
   if (!apiKey) {
-    apiKey = localStorage.getItem('cineverse_api_key') || TMDB_READ_ACCESS_TOKEN;
+    apiKey = localStorage.getItem('CineOrbit_api_key') || TMDB_READ_ACCESS_TOKEN;
   }
   return apiKey;
 }
 
 export function clearApiKey() {
   apiKey = null;
-  localStorage.removeItem('cineverse_api_key');
+  localStorage.removeItem('CineOrbit_api_key');
 }
 
 const instance: AxiosInstance = axios.create({

@@ -50,13 +50,13 @@ export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
       // API key
-      apiKey: localStorage.getItem('cineverse_api_key') || TMDB_READ_ACCESS_TOKEN,
+      apiKey: localStorage.getItem('CineOrbit_api_key') || TMDB_READ_ACCESS_TOKEN,
       setApiKey: (key) => {
-        localStorage.setItem('cineverse_api_key', key);
+        localStorage.setItem('CineOrbit_api_key', key);
         set({ apiKey: key });
       },
       clearApiKey: () => {
-        localStorage.removeItem('cineverse_api_key');
+        localStorage.removeItem('CineOrbit_api_key');
         set({ apiKey: null });
       },
 
@@ -108,7 +108,7 @@ export const useAppStore = create<AppState>()(
       clearToast: () => set({ toastMessage: null }),
     }),
     {
-      name: 'cineverse-storage',
+      name: 'CineOrbit-storage',
       partialize: (state) => ({
         watchlist: state.watchlist,
         favorites: state.favorites,

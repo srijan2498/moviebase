@@ -44,7 +44,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="navbar-logo">
             <Clapperboard size={22} className="navbar-logo-icon" />
-            <span className="navbar-logo-text">CineVerse</span>
+            <span className="navbar-logo-text">CineOrbit</span>
           </Link>
 
           {/* Desktop Nav Links */}
@@ -132,7 +132,7 @@ export default function Navbar() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="mobile-menu-header">
-                <span className="navbar-logo-text">CineVerse</span>
+                <span className="navbar-logo-text">CineOrbit</span>
                 <button onClick={() => setMenuOpen(false)} className="btn btn-ghost btn-icon">
                   <X size={20} />
                 </button>
